@@ -1,0 +1,110 @@
+p {
+  font-family: Roboto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.video-title {
+  font-size: 18px;
+  font-weight: bold;
+  width: 280px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.video-views {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+
+.video-channel {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+
+.video-description {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  width: 280px;
+  line-height: 23px;
+  margin-bottom: 50px;
+}
+
+.apple-product {
+  background-color: rgb(227, 65, 64);
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.apple-product > a {
+  text-decoration: none;
+  color: white;
+}
+
+.apple-product > a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.course-title {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.course-level {
+  font-family: Verdana;
+  color: rgb(96, 96, 96);
+  margin-bottom: 15px;
+}
+
+.course-info {
+  font-family: Verdana;
+  width: 300px;
+  margin-bottom: 25px;
+}
+
+.course-getStarted {
+  background-color: rgb(62, 128, 42);
+  padding: 10px 15px;
+  color: white;
+  font-family: Verdana;
+  font-size: 15px;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+
+.post-name {
+  font-weight: bold;
+}
+
+.post-username {
+  font-weight: normal;
+  color: rgb(96, 96, 96);
+  font-size: 15px;
+  vertical-align: top;
+  margin-bottom: 0px;
+}
+
+.post-info1 {
+  width: 500px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  line-height: 20px;
+}
+
+.post-info2 {
+  width: 500px;
+  margin-top: 15px;
+}
+
+.post-info2 > a {
+  color: rgb(32, 164, 208);
+  text-decoration: none;
+}

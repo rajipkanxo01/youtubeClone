@@ -1,0 +1,37 @@
+
+.featured-bar {
+  background-color: rgb(32,32,32);
+  border-top:1px solid  rgba(255, 255, 255,0.1);
+  border-bottom: 1px solid rgba(255, 255, 255,0.1);
+  margin-bottom: 20px;
+  width: 2300px;
+  position: fixed;
+  display: inline-block;
+  z-index: 100;
+  
+}
+
+.featured-bar>button {
+  background-color: rgba(255, 255, 255,0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 12px 12px 12px 0px;
+  padding: 0px 12px;
+  font-size: 14px;
+  border-radius: 30px;
+  height: 32px;
+  
+  cursor: pointer;
+  transition: background-color 0.15s , color 0.15s;
+}
+
+.featured-bar>button:hover {
+  background-color: rgba(255, 255, 255, 0.278);
+}
+
+.featured-bar>button:active {
+  background-color: white;
+  color: rgb(3, 3, 3);
+}
+
+

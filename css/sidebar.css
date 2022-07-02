@@ -1,0 +1,78 @@
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 52px;
+  background-color: rgb(32, 32, 32);
+  width: 240px;
+  overflow-x: hidden;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 10px;
+  max-height: 50px;
+
+  background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #606060;
+  border-radius: 100px;
+}
+
+.feed-tabs {
+  height: 40px;
+  width: 192px;
+  padding: 0px 24px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.feed-tabs:hover {
+  background-color: rgb(56, 56, 56);
+}
+
+.feed-icon {
+  width: 18px;
+  height: 20px;
+  margin-right: 24px;
+}
+
+.more-tabs-container {
+  margin-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 12px;
+}
+
+.subscriptions-container,
+.more-from-youtube {
+  width: 240px;
+  padding: 8px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sub-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: rgb(170, 170, 170);
+  font-weight: 500;
+  padding: 8px 24px;
+}
+
+.sub-channel-profile {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+  border-radius: 50%;
+}
+
+.show-more {
+  height: 14px;
+  width: 14px;
+  margin-right: 34px;
+}
