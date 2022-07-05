@@ -1,4 +1,3 @@
-
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -22,7 +21,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 500;
-  padding: 4px ;
+  padding: 4px;
   position: absolute;
   color: white;
   bottom: 8px;
