@@ -8,16 +8,27 @@
   overflow-x: hidden;
 }
 
-.sidebar::-webkit-scrollbar {
-  width: 10px;
-  max-height: 50px;
 
+.sidebar::-webkit-scrollbar {
+  width: 8px;
   background: transparent;
+  display: none;
 }
 
+.sidebar:hover::-webkit-scrollbar {
+  display: block;
+}
+
+
+
 .sidebar::-webkit-scrollbar-thumb {
-  background-color: #606060;
+  background-color: rgb(170, 170, 170);
   border-radius: 100px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  width: 10px;
+  margin-top: 10px;
 }
 
 .feed-tabs {
@@ -75,4 +86,43 @@
   height: 14px;
   width: 14px;
   margin-right: 34px;
+}
+
+.guide-links-primary,
+.guide-links-secondary {
+  height: 54px;
+  width: 192px;
+  display: inline-block;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-left: 24px;
+
+}
+
+.guide-links-primary a,
+.guide-links-secondary a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(170, 170, 170);
+  text-decoration-color: rgb(170, 170, 170);
+  margin-right: 6px
+}
+
+.guide-links-secondary {
+  padding-top: 12px;
+}
+
+.copyright {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(113, 113, 113);
+  padding: 16px 24px;
+}
+
+.copyright div {
+  display: inline;
+  margin-right: 6px;
 }
