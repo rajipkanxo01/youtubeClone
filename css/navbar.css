@@ -11,10 +11,15 @@
   z-index: 100;
 }
 
+.navbar>button {
+  cursor: pointer;
+}
+
 .start-section {
   display: flex;
   align-items: center;
   width: 162px;
+
 }
 
 .menu {
@@ -22,11 +27,13 @@
   padding: 8px;
   margin-left: 24px;
   padding: 8px;
+  cursor: pointer;
 }
 
 .logo {
   height: 30px;
-  padding: 18 14 18 16;
+  padding: 18px 14px 18px 16px;
+  cursor: pointer;
 }
 
 .center-section {
@@ -35,6 +42,7 @@
   display: flex;
   align-items: center;
   padding-left: 30px;
+
 }
 
 .search-bar {
@@ -47,11 +55,12 @@
   border-radius: 3px;
   box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0);
   width: 0;
-  max-width: 728px;
-  margin-left: 0px;
+  max-width: 572px;
+  margin-left: 40px;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  cursor: text;
 }
 
 .search-bar::placeholder {
@@ -71,6 +80,7 @@
   padding: 1px 6px;
   border: none;
   margin-right: 5px;
+  cursor: pointer;
 }
 
 .voice-search-icon {
@@ -78,13 +88,19 @@
 }
 
 .voice-button {
+  position: relative;
   width: 40px;
   height: 40px;
   background-color: rgb(24, 24, 24);
   border-radius: 50%;
   border: none;
   padding: 8px;
+  cursor: pointer;
 }
+
+
+
+
 
 .end-section {
   width: 225px;
@@ -104,6 +120,8 @@
   padding: 8px;
   background-color: rgb(32, 32, 32);
   border: none;
+  cursor: pointer;
+  position: relative;
 }
 
 .upload-icon,

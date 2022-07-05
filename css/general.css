@@ -7,16 +7,22 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
   max-height: 50px;
-
   background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #606060;
+  background-color: rgb(170, 170, 170);
   border-radius: 100px;
+
 }
+
+::-webkit-scrollbar-track {
+  margin-top: 10px;
+
+}
+
 
 p {
   margin-top: 0;
